@@ -1,0 +1,43 @@
+html {
+    margin: 47px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: red;
+    line-height: 3.2;
+    font-style: italic;
+}
+button.fas.fa-shopping-cart {
+    border: white;
+    background: white;
+    font-size: 30px;
+}
+h3 {
+    word-spacing: 300px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    font-size: 20px;
+    padding: 20px;
+}
+img {
+    width: 300px;
+    height: auto;
+}
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: beige;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+}
+td {
+    padding: 27px;
+}
+input[type="texte"] {
+    width: 15%;
+}
