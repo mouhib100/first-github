@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./Css/DOM.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,76 +12,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panier</title>
-</head>
-<body>
-    
-    <button type="button" class="btn btn-primary position-relative">
-      <i class="fas fa-shopping-cart"></i>
-      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-        99+
-        <span class="visually-hidden">unread messages</span>
-      </span>
-    </button>
-    <h1> Votre Panier </h1>
-    <table>
-        <tr>
-          <th>Article</th>
-          <th>     </th>
-          <th>Qté</th>
-          <th>Prix</th>
-        </tr>
-        <tr>
-          <td><img src="https://ih1.redbubble.net/image.462370014.0138/throwpillow,small,600x-bg,f8f8f8-c,0,120,600,600.u2.jpg"></td>
-          <td>COUSSIN
-              16 x 16 in, Housse uniquement
-          </td>
-          <td><form>
-              <input class="moins" type="button" value="-" />
-              <input type="texte" value="1" maxlength="10" />
-              <input class="plus" type="button" value="+" />
-              </form>
-          </td>
-          <td>21,54 $US
-            <i class="fas fa-trash"></i>
-            <i class="fas fa-heart"></i>
-          </td>
-        </tr>  
-        <tr>
-          <td><img src="https://ih1.redbubble.net/image.462370035.0138/mp,504x498,matte,f8f8f8,t-pad,600x600,f8f8f8.jpg"></td>
-          <td>IMPRESSION SUR TOILE
-              Petit (8.0" x 12.0")
-          </td>
-          <td><form>
-              <input class="moins" type="button" value="-" />
-              <input type="texte" value="1" maxlength="10" />
-              <input class="plus" type="button" value="+" />
-              </form>
-          </td>
-          <td>56,20 $US
-            <i class="fas fa-trash"></i>
-            <i class="fas fa-heart"></i>
-          </td>
-        </tr>
-        <tr>
-          <td><img src="https://ih1.redbubble.net/image.697056401.7172/mp,504x498,matte,f8f8f8,t-pad,600x600,f8f8f8.u1.jpg"></td>
-          <td>IMPRESSION SUR TOILE
-              Petit (8.0" x 10.7")
-          </td>
-          <td><form>
-              <input class="moins" type="button" value="-" />
-              <input type="texte" value="1" maxlength="10" />
-              <input class="plus" type="button" value="+" />
-              </form>
-          </td>
-          <td>60,89 $US
-            <i class="fas fa-trash"></i>
-            <i class="fas fa-heart"></i>
-          </td>
-        </tr>
-        <tr>
-          <td> Total: </td>
-        </tr>
-      </table>
-  <script src="../JS/Dom.js"></script>
+</head>  
+<body>  
+  <button type="button" class="btn btn-primary position-relative">
+    <i class="fas fa-shopping-cart"></i>
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      99+
+      <span class="visually-hidden">unread messages</span>
+    </span>
+  </button>
+  <h1> Votre Panier </h1>
+  <table>
+      <tr>
+        <th>Article</th>
+        <th>     </th>
+        <th>QtÃ©</th>
+        <th>Prix</th>
+      </tr>
+      <tr>
+        <td><img src="https://ih1.redbubble.net/image.462370014.0138/throwpillow,small,600x-bg,f8f8f8-c,0,120,600,600.u2.jpg"></td>
+        <td>COUSSIN
+            16 x 16 in, Housse uniquement
+        </td>
+        <td><form>
+            <input class="moins" type="button" value="-" />
+            <input type="texte" value="1" maxlength="10" />
+            <input class="plus" type="button" value="+" />
+            </form>
+        </td>
+        <td>21,54 $US
+          <i class="fas fa-trash"></i>
+          <i class="fas fa-heart"></i>
+        </td>
+      </tr>  
+      <tr>
+        <td><img src="https://ih1.redbubble.net/image.462370035.0138/mp,504x498,matte,f8f8f8,t-pad,600x600,f8f8f8.jpg"></td>
+        <td>IMPRESSION SUR TOILE
+            Petit (8.0" x 12.0")
+        </td>
+        <td><form>
+            <input class="moins" type="button" value="-" />
+            <input type="texte" value="1" maxlength="10" />
+            <input class="plus" type="button" value="+" />
+            </form>
+        </td>
+        <td>56,20 $US
+          <i class="fas fa-trash"></i>
+          <i class="fas fa-heart"></i>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="https://ih1.redbubble.net/image.697056401.7172/mp,504x498,matte,f8f8f8,t-pad,600x600,f8f8f8.u1.jpg"></td>
+        <td>IMPRESSION SUR TOILE
+            Petit (8.0" x 10.7")
+        </td>
+        <td><form>
+            <input class="moins" type="button" value="-" />
+            <input type="texte" value="1" maxlength="10" />
+            <input class="plus" type="button" value="+" />
+            </form>
+        </td>
+        <td>60,89 $US
+          <i class="fas fa-trash"></i>
+          <i class="fas fa-heart"></i>
+        </td>
+      </tr>
+      <tr>
+        <td> Total:<span class="total">0</span> </td>
+      </tr>
+    </table>
+<script src="../JS/Dom.js"></script>
 </body>
 </html>
